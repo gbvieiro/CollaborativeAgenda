@@ -1,0 +1,6 @@
+@Collaborative.Agenda.API_HostAddress = http://localhost:5085
+
+GET {{Collaborative.Agenda.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

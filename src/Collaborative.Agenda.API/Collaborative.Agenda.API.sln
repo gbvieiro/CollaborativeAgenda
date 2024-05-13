@@ -7,6 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collaborative.Agenda.API", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collaborative.Agenda.Domain", "Collaborative.Agenda.Domain\Collaborative.Agenda.Domain.csproj", "{C96695B1-94B3-4B2E-BDDB-F17D6C4BEA4D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collaborative.Agenda.UnitTests", "Collaborative.Agenda.UnitTests\Collaborative.Agenda.UnitTests.csproj", "{15BECEB5-C97D-43B0-9D36-D5629C0FE04A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collaborative.Agenda.Application", "Collaborative.Agenda.Application\Collaborative.Agenda.Application.csproj", "{633C2D0F-ACF0-4A01-9225-29920BAA1B11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{8C957968-2333-452F-BF02-6F6F24AC0864}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collaborative.Agenda.MongoDB", "Collaborative.Agenda.Repository\Collaborative.Agenda.MongoDB.csproj", "{4D4F2124-E868-48FB-8F27-705BA05A4CCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +29,18 @@ Global
 		{C96695B1-94B3-4B2E-BDDB-F17D6C4BEA4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C96695B1-94B3-4B2E-BDDB-F17D6C4BEA4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C96695B1-94B3-4B2E-BDDB-F17D6C4BEA4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15BECEB5-C97D-43B0-9D36-D5629C0FE04A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15BECEB5-C97D-43B0-9D36-D5629C0FE04A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15BECEB5-C97D-43B0-9D36-D5629C0FE04A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15BECEB5-C97D-43B0-9D36-D5629C0FE04A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{633C2D0F-ACF0-4A01-9225-29920BAA1B11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{633C2D0F-ACF0-4A01-9225-29920BAA1B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{633C2D0F-ACF0-4A01-9225-29920BAA1B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{633C2D0F-ACF0-4A01-9225-29920BAA1B11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D4F2124-E868-48FB-8F27-705BA05A4CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D4F2124-E868-48FB-8F27-705BA05A4CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D4F2124-E868-48FB-8F27-705BA05A4CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D4F2124-E868-48FB-8F27-705BA05A4CCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
